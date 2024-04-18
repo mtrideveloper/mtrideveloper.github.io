@@ -1,0 +1,56 @@
+h1{
+    background-color: gold;
+}
+
+h2{
+    display: inline-block;
+    background-color: deepskyblue;
+}
+em{
+    background-color: black;
+    color: white;
+}
+
+
+/* đặt tên cho một thuộc tính (hoặc class ???) */
+
+.parent-container-center{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.js-paragraph-text{
+    font-size: xx-large;
+    color: snow;
+    background-color: darkcyan;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: bolder;
+}
+.js-sort-area{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.js-sort-btn {
+    display: block; /* Đặt khối 'block' để căn giữa */
+    margin: 0 auto; /* Căn giữa theo chiều ngang, top=0, right=auto, left=auto, up=0 */
+    /* text-align: center; Căn giữa chữ */
+    font-size: 20px;
+    width: 150px; /* Đặt chiều rộng */
+    height: 50px; /* Đặt chiều cao */
+    background-color: cyan; /* Màu nền */
+    border: 2px solid black; /* Viền */
+    color: rgb(4, 35, 4); /* Màu chữ */
+    font-weight: bold; /* Chữ đậm */
+    border-radius: 5px; /* Bo góc */
+}
+
+/* Actived by the user (like presses down,..) */
+.js-sort-btn:active {
+    background-color: darkcyan; /* Thay đổi màu nền khi nút được nhấn */
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Thêm đổ bóng khi nút được nhấn */
+    transform: translateY(2px); /* Di chuyển nút xuống một chút khi được nhấn */
+}

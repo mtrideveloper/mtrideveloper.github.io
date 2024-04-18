@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <!--meta: cung cap thong tin trang web cho trinh duyet-->
+    <meta charset="UTF-8">
+    <!--viewport: chi dinh cach ma trang web duoc hien thi tren mobile devices-->
+    <!--content: chua thong thi ve thuoc tinh duoc chi dinh-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mô tả trang web">
+    <!--http-equiv: cung cap cac chi thi ve cach xu ly trang-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--rel: chi dinh doc hien tai (index.html) va doc duoc lien ket (css (style sheet))-->
+    <link rel="stylesheet" href="style.css">
+    <title>First static web</title>
+</head>
+
+<body>
+    <h1>First level heading in html. With css, text will turn into gold color.</h1>
+    <h2>Second level heading in html. With css, text will turn into deepskyblue color.</h2>
+    <h3>
+        <p>
+            <em>Paragraph</em> of text placed in a tag p. This paragraph text placed to italic (emphasis).
+            Backgroud color of "paragraph" to black, and its text to white, all with just CSS.
+        </p>
+        <ul>
+            <li>Format a web document with HTML</li>
+            <li>Design a web page with CSS</li>
+            <li>Program a web document with JavaScript</li>
+        </ul>
+
+        <!-- Block-level: Bắt đầu một dòng mới và chiếm toàn bộ trang ngang -->
+        <!-- Block-level khong the chua block-level khac,
+             vd khong the dat <div> trong <p>-->
+        <div class="parent-container-center"> <!--div: dinh nghia mot phan tu hay khu vuc html-->
+            <p class="js-paragraph-text">Next, I'm programing sort a array, all with JavaScript</p>
+        </div>
+        <p class="js-sort-area"><span id="myaction"></span></p>
+        <input class="js-sort-btn" type="button" id="action" value="Action">
+    </h3>
+    <script src="sort.js"></script>
+</body>
+
+</html>
